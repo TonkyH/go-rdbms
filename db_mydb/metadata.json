@@ -1,0 +1,35 @@
+{
+  "name": "mydb",
+  "tables": {
+    "users": {
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "not_null": false,
+          "primary": true
+        },
+        {
+          "name": "name",
+          "type": "VARCHAR",
+          "size": 50,
+          "not_null": true,
+          "primary": false
+        },
+        {
+          "name": "age",
+          "type": "INTEGER",
+          "not_null": false,
+          "primary": false
+        },
+        {
+          "name": "active",
+          "type": "BOOLEAN",
+          "not_null": false,
+          "primary": false
+        }
+      ],
+      "name": "users"
+    }
+  }
+}
