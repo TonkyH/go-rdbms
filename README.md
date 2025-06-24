@@ -1,6 +1,7 @@
 # シンプルなRDBMS - Go実装
 
-Go言語で実装した軽量なリレーショナルデータベース管理システム（RDBMS）です。基本的なSQL操作をサポートし、データをJSONファイルとして永続化します。
+Claudeを活用し、学習目的でRDBMSを作成。
+Go言語で実装した軽量なリレーショナルデータベース管理システム（RDBMS）です。基本的なSQL操作をサポートし、データをJSONファイルとして永続化します。  
 
 ## 特徴
 
@@ -322,7 +323,3 @@ SQL> tables
 Tables:
   employees (id INTEGER PRIMARY KEY, name VARCHAR NOT NULL, department VARCHAR, salary INTEGER)
 ```
-
-## ライセンス
-
-このプロジェクトは学習目的で作成されています。
