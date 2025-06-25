@@ -17,7 +17,7 @@ Go言語で実装した軽量なリレーショナルデータベース管理シ
 
 ```bash
 # 実行
-go run rdbms.go
+go run main.go
 ```
 
 ## 使い方
